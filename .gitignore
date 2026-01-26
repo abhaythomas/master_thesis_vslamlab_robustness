@@ -16,3 +16,4 @@ __pycache__/
 # Common junk
 .DS_Store
 Thumbs.db
+miniconda.sh
