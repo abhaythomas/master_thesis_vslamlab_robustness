@@ -1,0 +1,22 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+droidslam,kitti_3d_corrupted,low_light_00_1,0,completed,True,4321.032174348831,12.90890121459961,0.0,51.55340576171875,nan,none
+droidslam,kitti_3d_corrupted,low_light_00_2,0,completed,True,4351.014933824539,5.995460510253906,0.0,51.69012451171875,nan,none
+droidslam,kitti_3d_corrupted,low_light_00_3,0,completed,True,4280.8500146865845,5.2972564697265625,0.0,51.71551513671875,nan,none
+droidslam,kitti_3d_corrupted,low_light_00_4,0,completed,True,4280.968652963638,5.7842559814453125,0.0,51.52410888671875,nan,none
+droidslam,kitti_3d_corrupted,low_light_00_5,0,completed,True,4340.860182523727,5.170799255371094,0.0,51.67254638671875,nan,none
+droidslam,kitti_3d_corrupted,iso_noise_00_1,0,completed,True,4310.933258533478,5.090415954589844,0.0,51.67059326171875,nan,none
+droidslam,kitti_3d_corrupted,iso_noise_00_2,0,completed,True,4350.911080360413,5.515590667724609,0.0,51.76824951171875,nan,none
+droidslam,kitti_3d_corrupted,iso_noise_00_3,0,completed,True,3961.912288665772,100.3730125427246,0.0,50.78778076171875,nan,none
+droidslam,kitti_3d_corrupted,iso_noise_00_4,0,completed,True,3230.410486936569,13.09331512451172,0.0,51.88348388671875,nan,none
+droidslam,kitti_3d_corrupted,iso_noise_00_5,0,completed,False,1970.4263241291048,18.37368392944336,12.59579086303711,30.53778076171875,"Filling swap memory  12.6 GB / 14.9 GB > 80.00 %. Process killed.
+",none
+droidslam,kitti_3d_corrupted,flash_00_1,0,completed,False,0.1176674365997314,0.0,0.0,0.0,"Filling swap memory  12.7 GB / 14.9 GB > 80.00 %. Process killed.
+",none
+droidslam,kitti_3d_corrupted,flash_00_2,0,completed,False,0.0281400680541992,0.0,0.0,0.0,"Filling swap memory  12.7 GB / 14.9 GB > 80.00 %. Process killed.
+",none
+droidslam,kitti_3d_corrupted,flash_00_3,0,completed,False,0.0260958671569824,0.0,0.0,0.0,"Filling swap memory  12.7 GB / 14.9 GB > 80.00 %. Process killed.
+",none
+droidslam,kitti_3d_corrupted,flash_00_4,0,completed,False,0.0289974212646484,0.0,0.0,0.0,"Filling swap memory  12.7 GB / 14.9 GB > 80.00 %. Process killed.
+",none
+droidslam,kitti_3d_corrupted,flash_00_5,0,completed,False,0.027304649353027344,0.0,0.0,0.0,"Filling swap memory  12.7 GB / 14.9 GB > 80.00 %. Process killed.
+",none

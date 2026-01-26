@@ -1,0 +1,1 @@
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti3d_droid_part6/KITTI_3D_CORRUPTED/mix_rain_contrast_00_1/00000_KeyFrameTrajectory.txt

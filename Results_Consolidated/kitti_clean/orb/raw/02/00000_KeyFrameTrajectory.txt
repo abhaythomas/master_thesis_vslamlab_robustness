@@ -1,0 +1,1 @@
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_orb2_kitti_clean_10seq_corrected/KITTI/02/00000_KeyFrameTrajectory.txt

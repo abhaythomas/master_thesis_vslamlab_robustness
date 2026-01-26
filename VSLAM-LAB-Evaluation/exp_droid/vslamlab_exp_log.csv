@@ -1,0 +1,5 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+droidslam,4seasons,neighborhood_2_train,0,completed,True,1110.1526308059692,4.900547027587891,0.0,48.489013671875,nan,none
+droidslam,4seasons,neighborhood_3_train,0,completed,True,840.0832138061523,5.0994415283203125,0.0,48.071044921875,nan,none
+droidslam,4seasons,neighborhood_4_train,0,completed,True,800.0858826637268,5.764827728271484,0.0,48.006591796875,nan,none
+droidslam,4seasons,neighborhood_6_train,0,completed,True,1010.0948588848114,4.942100524902344,0.0,48.608154296875,,none

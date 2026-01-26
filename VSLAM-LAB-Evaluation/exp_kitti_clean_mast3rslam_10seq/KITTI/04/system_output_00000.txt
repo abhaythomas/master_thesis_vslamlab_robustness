@@ -1,0 +1,60 @@
+✨ Pixi task (execute_mono in mast3rslam): vslamlab_mast3rslam_mono --sequence_path /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI/04 --calibration_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI/04/calibration.yaml --rgb_txt /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/04/rgb_exp.txt --exp_folder /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/04 --exp_it 0 --settings_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MASt3R-SLAM/vslamlab_mast3rslam_settings.yaml --verbose 0 --mode mono --checkpoints_dir /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MASt3R-SLAM/checkpoints --use_calib 0
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
+{'cam_mono': 'kitti', 'single_thread': True, 'use_calib': False, 'dataset': {'subsample': 2, 'img_downsample': 1, 'center_principle_point': True}, 'matching': {'max_iter': 10, 'lambda_init': 1e-08, 'convergence_thresh': 1e-06, 'dist_thresh': 0.1, 'radius': 3, 'dilation_max': 5}, 'tracking': {'min_match_frac': 0.05, 'max_iters': 50, 'C_conf': 0.0, 'Q_conf': 1.5, 'rel_error': 0.001, 'delta_norm': 0.001, 'huber': 1.345, 'match_frac_thresh': 0.333, 'sigma_ray': 0.003, 'sigma_dist': 10.0, 'sigma_pixel': 1.0, 'sigma_depth': 10.0, 'sigma_point': 0.05, 'pixel_border': -10, 'depth_eps': 1e-06, 'filtering_mode': 'weighted_pointmap', 'filtering_score': 'median'}, 'local_opt': {'pin': 1, 'window_size': 1000000.0, 'C_conf': 0.0, 'Q_conf': 1.5, 'min_match_frac': 0.1, 'pixel_border': -10, 'depth_eps': 1e-06, 'max_iters': 10, 'sigma_ray': 0.003, 'sigma_dist': 10.0, 'sigma_pixel': 1.0, 'sigma_depth': 10.0, 'sigma_point': 0.05, 'delta_norm': 1e-08, 'use_cuda': True}, 'retrieval': {'k': 3, 'min_thresh': 0.005}, 'reloc': {'min_match_frac': 0.3, 'strict': True}}
+Use calibration: False
+... loading model from /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MASt3R-SLAM/checkpoints/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric.pth
+instantiating : AsymmetricMASt3R(enc_depth=24, dec_depth=12, enc_embed_dim=1024, dec_embed_dim=768, enc_num_heads=16, dec_num_heads=12, pos_embed='RoPE100',img_size=(512, 512), head_type='catmlp+dpt', output_mode='pts3d+desc24', depth_mode=('exp', -inf, inf), conf_mode=('exp', 1, inf), patch_embed_cls='PatchEmbedDust3R', two_confs=True, desc_conf_mode=('exp', 0, inf), landscape_only=False)
+<All keys matched successfully>
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/site-packages/mast3r_slam/frame.py:116: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /home/conda/feedstock_root/build_artifacts/libtorch_1746251341172/work/torch/csrc/utils/tensor_numpy.cpp:203.)
+  uimg = torch.from_numpy(img["unnormalized_img"]) / 255.0
+Processed 0.0 %
+Processed 0.7352941176470589 %
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/bin/vslamlab_mast3rslam_mono", line 9, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/site-packages/mast3r_slam/vslamlab_mast3rslam_mono.py", line 267, in main
+    add_new_kf, match_info, try_reloc = tracker.track(frame)
+                                        ^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/site-packages/mast3r_slam/tracker.py", line 31, in track
+    idx_f2k, valid_match_k, Xff, Cff, Qff, Xkf, Ckf, Qkf = mast3r_match_asymmetric(
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/site-packages/mast3r_slam/mast3r_utils.py", line 222, in mast3r_match_asymmetric
+    idx_i2j, valid_match_j = matching.match(
+                             ^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/site-packages/mast3r_slam/matching.py", line 9, in match
+    idx_1_to_2, valid_match2 = match_iterative_proj(X11, X21, D11, D21, idx_1_to_2_init)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/site-packages/mast3r_slam/matching.py", line 68, in match_iterative_proj
+    p1 = p1.long()
+         ^^^^^^^^^
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
+Process Process-2:
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/site-packages/mast3r_slam/vslamlab_mast3rslam_mono.py", line 133, in run_backend
+    with states.lock:
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/multiprocessing/managers.py", line 1056, in __enter__
+    return self._callmethod('acquire')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/multiprocessing/managers.py", line 822, in _callmethod
+    kind, result = conn.recv()
+                   ^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+          ^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/multiprocessing/connection.py", line 430, in _recv_bytes
+    buf = self._recv(4)
+          ^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/multiprocessing/connection.py", line 395, in _recv
+    chunk = read(handle, remaining)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
+Loading retrieval model from /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MASt3R-SLAM/checkpoints/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric_retrieval_trainingfree.pth

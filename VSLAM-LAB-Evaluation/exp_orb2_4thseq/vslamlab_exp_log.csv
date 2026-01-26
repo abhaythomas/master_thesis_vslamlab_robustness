@@ -1,0 +1,2 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+orbslam2,4seasons,neighborhood_4_train,0,completed,True,440.124192237854,2.3081016540527344,0.0,0.0,,none

@@ -1,0 +1,16 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+orbslam2,kitti_3d_corrupted,mix_brightness_contrast_00_1,0,completed,True,637.6345908641815,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_brightness_contrast_00_2,0,completed,True,532.0506660938263,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_brightness_contrast_00_3,0,completed,True,581.5618424415588,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_brightness_contrast_00_4,0,completed,True,616.2020139694214,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_brightness_contrast_00_5,0,completed,True,541.4798302650452,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_fog_contrast_00_1,0,completed,True,633.4226531982422,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_fog_contrast_00_2,0,completed,True,622.2975254058838,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_fog_contrast_00_3,0,completed,True,577.6604444980621,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_fog_contrast_00_4,0,completed,True,511.3309645652771,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_fog_contrast_00_5,0,completed,True,508.09530878067017,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_rain_contrast_00_1,0,completed,True,593.9576816558838,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_rain_contrast_00_2,0,completed,True,597.7975676059723,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_rain_contrast_00_3,0,completed,True,656.9591109752655,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_rain_contrast_00_4,0,completed,True,603.1451473236084,,,,nan,none
+orbslam2,kitti_3d_corrupted,mix_rain_contrast_00_5,0,completed,True,527.3458540439606,N/A,N/A,N/A,,none

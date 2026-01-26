@@ -1,0 +1,13 @@
+method,sequence,season,weather,time,ape_rmse,rpe_rmse,coverage_pct,status
+dpvo,neighborhood_2_train,fall,cloudy,afternoon,103.42042259655392,0.4713214812428539,100.0,OK
+dpvo,neighborhood_3_train,fall,rainy,afternoon,120.9576422325494,0.6135124839902474,100.0,OK
+dpvo,neighborhood_4_train,winter,cloudy,morning,120.03422440553528,0.6278238268262274,100.0,OK
+dpvo,neighborhood_6_train,spring,cloudy,evening,96.30457610600668,0.4739368518759428,100.0,OK
+droid,neighborhood_2_train,fall,cloudy,afternoon,100.48787548043028,0.423861746457978,100.0,OK
+droid,neighborhood_3_train,fall,rainy,afternoon,104.56172928948344,0.4205050054830369,100.0,OK
+droid,neighborhood_4_train,winter,cloudy,morning,114.88734333769698,0.5691493717022023,100.0,OK
+droid,neighborhood_6_train,spring,cloudy,evening,107.15871273890136,0.4864164194813767,100.0,OK
+orb,neighborhood_2_train,fall,cloudy,afternoon,9.45782667997124,0.5032390151208481,14.718162839248434,OK
+orb,neighborhood_3_train,fall,rainy,afternoon,91.73144644148722,19.529111543515,9.694415173867228,OK
+orb,neighborhood_4_train,winter,cloudy,morning,44.37092121724152,6.668458572430046,11.326732673267328,OK
+orb,neighborhood_6_train,spring,cloudy,evening,21.632864746253706,0.9596127979706988,21.220248072410325,OK

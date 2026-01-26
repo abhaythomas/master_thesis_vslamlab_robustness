@@ -1,0 +1,2 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+dpvo,4seasons,neighborhood_2_train,0,completed,True,420.21957755088806,4.419532775878906,0.0,3.64263916015625,,none

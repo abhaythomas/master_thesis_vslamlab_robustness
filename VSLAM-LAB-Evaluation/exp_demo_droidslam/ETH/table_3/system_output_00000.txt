@@ -1,0 +1,56 @@
+✨ Pixi task (execute_mono in droidslam): vslamlab_droidslam_mono --sequence_path /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/ETH/table_3 --calibration_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/ETH/table_3/calibration.yaml --rgb_txt /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_demo_droidslam/ETH/table_3/rgb_exp.txt --exp_folder /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_demo_droidslam/ETH/table_3 --exp_it 0 --settings_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/DROID-SLAM/vslamlab_droidslam_settings.yaml --verbose 1 --mode mono --upsample 0 --weights /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/DROID-SLAM/droid.pth
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/motion_filter.py:32: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/motion_filter.py:38: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/motion_filter.py:43: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/factor_graph.py:86: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/factor_graph.py:137: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/factor_graph.py:165: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/factor_graph.py:198: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/factor_graph.py:250: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/trajectory_filler.py:31: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+0it [00:00, ?it/s]This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/torch/functional.py:554: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /home/conda/feedstock_root/build_artifacts/libtorch_1746251341172/work/aten/src/ATen/native/TensorShape.cpp:4314.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+1it [00:32, 32.71s/it]2it [00:37, 16.31s/it]7it [00:37,  3.15s/it]11it [00:37,  1.65s/it]15it [00:38,  1.01s/it]18it [00:38,  1.38it/s]21it [00:38,  1.93it/s]24it [00:38,  2.66it/s]27it [00:38,  3.58it/s]30it [00:38,  4.79it/s]33it [00:38,  6.36it/s]36it [00:39,  7.97it/s]39it [00:39, 10.12it/s]42it [00:39, 12.04it/s]45it [00:39, 14.06it/s]48it [00:39, 15.77it/s]51it [00:39, 16.98it/s]54it [00:39, 18.85it/s]57it [00:40, 20.03it/s]60it [00:40, 18.16it/s]63it [00:40, 18.81it/s]66it [00:40, 18.69it/s]69it [00:40, 19.83it/s]/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/factor_graph.py:123: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=False):
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/factor_graph.py:203: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=False):
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/factor_graph.py:217: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=False):
+72it [00:53,  1.31s/it]74it [00:53,  1.03s/it]77it [00:53,  1.39it/s]80it [00:53,  1.99it/s]83it [00:54,  2.18it/s]85it [00:54,  2.73it/s]88it [00:55,  3.84it/s]91it [00:55,  4.94it/s]94it [00:55,  6.47it/s]97it [00:55,  8.31it/s]100it [00:55, 10.60it/s]101it [00:55,  1.81it/s]
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/DROID-SLAM/droid.pth
+################################
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/bin/vslamlab_droidslam_mono", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/vslamlab_droidslam_mono.py", line 142, in main
+    traj_est = droid.terminate(image_stream(args.sequence_path, args.rgb_txt, args.calibration_yaml, args.stride))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/droid.py", line 91, in terminate
+    self.backend(7)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/droid_backend.py", line 40, in __call__
+    graph.update_lowmem(steps=steps)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/factor_graph.py", line 258, in update_lowmem
+    corr_op = AltCorrBlock(self.video.fmaps.view(1, num*rig, ch, ht, wd))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/droidslam/lib/python3.11/site-packages/droid_slam/modules/corr.py", line 102, in __init__
+    fmap_lvl = fmaps.permute(0, 2, 3, 1).contiguous()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 5.88 GiB. GPU 0 has a total capacity of 39.49 GiB of which 4.74 GiB is free. Including non-PyTorch memory, this process has 34.72 GiB memory in use. Of the allocated memory 34.14 GiB is allocated by PyTorch, and 81.41 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

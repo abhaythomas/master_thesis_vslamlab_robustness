@@ -1,0 +1,15 @@
+fourseasons  / dpvo : OK=4, EMPTY=0, MISSING=0
+fourseasons  / droid: OK=4, EMPTY=0, MISSING=0
+fourseasons  / orb  : OK=4, EMPTY=0, MISSING=1
+kitti_clean  / dpvo : OK=12, EMPTY=0, MISSING=9
+kitti_clean  / droid: OK=11, EMPTY=0, MISSING=0
+kitti_clean  / orb  : OK=11, EMPTY=0, MISSING=0
+kitti_2d     / dpvo : OK=43, EMPTY=0, MISSING=1
+kitti_2d     / droid: OK=63, EMPTY=0, MISSING=2
+kitti_2d     / orb  : OK=38, EMPTY=25, MISSING=1
+kitti_3d     / dpvo : OK=35, EMPTY=0, MISSING=0
+kitti_3d     / droid: OK=35, EMPTY=0, MISSING=8
+kitti_3d     / orb  : OK=15, EMPTY=8, MISSING=12
+kitti_mixed  / dpvo : OK=15, EMPTY=0, MISSING=0
+kitti_mixed  / droid: OK=15, EMPTY=0, MISSING=0
+kitti_mixed  / orb  : OK=10, EMPTY=5, MISSING=0

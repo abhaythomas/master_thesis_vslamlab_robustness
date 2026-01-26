@@ -1,0 +1,370 @@
+✨ Pixi task (vslamlab in default): pixi run -e vslamlab python vslamlab_run.py $ARGUMENT $OVEWRITE && pixi run -e vslamlab python vslamlab_eval.py $ARGUMENT $OVEWRITE
+Exception in thread Thread-2 (monitor_memory):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2727, in _LoadNvmlLibrary
+    nvmlLib = CDLL("libnvidia-ml.so.1")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/BaselineVSLAMLab.py", line 100, in monitor_memory
+    nvmlInit()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2699, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2682, in nvmlInitWithFlags
+    _LoadNvmlLibrary()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2729, in _LoadNvmlLibrary
+    _nvmlCheckReturn(NVML_ERROR_LIBRARY_NOT_FOUND)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 1059, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:99: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "RAM"] = results['ram']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:100: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "SWAP"] = results['swap']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:101: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "GPU"] = results['gpu']
+Exception in thread Thread-3 (monitor_memory):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2727, in _LoadNvmlLibrary
+    nvmlLib = CDLL("libnvidia-ml.so.1")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/BaselineVSLAMLab.py", line 100, in monitor_memory
+    nvmlInit()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2699, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2682, in nvmlInitWithFlags
+    _LoadNvmlLibrary()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2729, in _LoadNvmlLibrary
+    _nvmlCheckReturn(NVML_ERROR_LIBRARY_NOT_FOUND)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 1059, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:99: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "RAM"] = results['ram']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:100: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "SWAP"] = results['swap']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:101: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "GPU"] = results['gpu']
+Exception in thread Thread-4 (monitor_memory):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2727, in _LoadNvmlLibrary
+    nvmlLib = CDLL("libnvidia-ml.so.1")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/BaselineVSLAMLab.py", line 100, in monitor_memory
+    nvmlInit()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2699, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2682, in nvmlInitWithFlags
+    _LoadNvmlLibrary()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2729, in _LoadNvmlLibrary
+    _nvmlCheckReturn(NVML_ERROR_LIBRARY_NOT_FOUND)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 1059, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:99: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "RAM"] = results['ram']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:100: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "SWAP"] = results['swap']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:101: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "GPU"] = results['gpu']
+Exception in thread Thread-5 (monitor_memory):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2727, in _LoadNvmlLibrary
+    nvmlLib = CDLL("libnvidia-ml.so.1")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/BaselineVSLAMLab.py", line 100, in monitor_memory
+    nvmlInit()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2699, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2682, in nvmlInitWithFlags
+    _LoadNvmlLibrary()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2729, in _LoadNvmlLibrary
+    _nvmlCheckReturn(NVML_ERROR_LIBRARY_NOT_FOUND)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 1059, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:99: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "RAM"] = results['ram']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:100: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "SWAP"] = results['swap']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:101: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "GPU"] = results['gpu']
+Exception in thread Thread-6 (monitor_memory):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2727, in _LoadNvmlLibrary
+    nvmlLib = CDLL("libnvidia-ml.so.1")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/BaselineVSLAMLab.py", line 100, in monitor_memory
+    nvmlInit()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2699, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2682, in nvmlInitWithFlags
+    _LoadNvmlLibrary()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2729, in _LoadNvmlLibrary
+    _nvmlCheckReturn(NVML_ERROR_LIBRARY_NOT_FOUND)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 1059, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:99: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "RAM"] = results['ram']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:100: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "SWAP"] = results['swap']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:101: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "GPU"] = results['gpu']
+Exception in thread Thread-7 (monitor_memory):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2727, in _LoadNvmlLibrary
+    nvmlLib = CDLL("libnvidia-ml.so.1")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/BaselineVSLAMLab.py", line 100, in monitor_memory
+    nvmlInit()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2699, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2682, in nvmlInitWithFlags
+    _LoadNvmlLibrary()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2729, in _LoadNvmlLibrary
+    _nvmlCheckReturn(NVML_ERROR_LIBRARY_NOT_FOUND)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 1059, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:99: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "RAM"] = results['ram']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:100: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "SWAP"] = results['swap']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:101: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "GPU"] = results['gpu']
+Exception in thread Thread-8 (monitor_memory):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2727, in _LoadNvmlLibrary
+    nvmlLib = CDLL("libnvidia-ml.so.1")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/BaselineVSLAMLab.py", line 100, in monitor_memory
+    nvmlInit()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2699, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2682, in nvmlInitWithFlags
+    _LoadNvmlLibrary()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2729, in _LoadNvmlLibrary
+    _nvmlCheckReturn(NVML_ERROR_LIBRARY_NOT_FOUND)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 1059, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:99: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "RAM"] = results['ram']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:100: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "SWAP"] = results['swap']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:101: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "GPU"] = results['gpu']
+Exception in thread Thread-9 (monitor_memory):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2727, in _LoadNvmlLibrary
+    nvmlLib = CDLL("libnvidia-ml.so.1")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/BaselineVSLAMLab.py", line 100, in monitor_memory
+    nvmlInit()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2699, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2682, in nvmlInitWithFlags
+    _LoadNvmlLibrary()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2729, in _LoadNvmlLibrary
+    _nvmlCheckReturn(NVML_ERROR_LIBRARY_NOT_FOUND)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 1059, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:99: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "RAM"] = results['ram']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:100: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "SWAP"] = results['swap']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:101: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "GPU"] = results['gpu']
+Exception in thread Thread-10 (monitor_memory):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2727, in _LoadNvmlLibrary
+    nvmlLib = CDLL("libnvidia-ml.so.1")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/BaselineVSLAMLab.py", line 100, in monitor_memory
+    nvmlInit()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2699, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2682, in nvmlInitWithFlags
+    _LoadNvmlLibrary()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2729, in _LoadNvmlLibrary
+    _nvmlCheckReturn(NVML_ERROR_LIBRARY_NOT_FOUND)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 1059, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:99: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "RAM"] = results['ram']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:100: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "SWAP"] = results['swap']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:101: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "GPU"] = results['gpu']
+Exception in thread Thread-11 (monitor_memory):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2727, in _LoadNvmlLibrary
+    nvmlLib = CDLL("libnvidia-ml.so.1")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/BaselineVSLAMLab.py", line 100, in monitor_memory
+    nvmlInit()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2699, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2682, in nvmlInitWithFlags
+    _LoadNvmlLibrary()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2729, in _LoadNvmlLibrary
+    _nvmlCheckReturn(NVML_ERROR_LIBRARY_NOT_FOUND)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 1059, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:99: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "RAM"] = results['ram']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:100: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "SWAP"] = results['swap']
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/vslamlab_run.py:101: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  exp_log.loc[first_not_finished_experiment, "GPU"] = results['gpu']
+Exception in thread Thread-12 (monitor_memory):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2727, in _LoadNvmlLibrary
+    nvmlLib = CDLL("libnvidia-ml.so.1")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/BaselineVSLAMLab.py", line 100, in monitor_memory
+    nvmlInit()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2699, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2682, in nvmlInitWithFlags
+    _LoadNvmlLibrary()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 2729, in _LoadNvmlLibrary
+    _nvmlCheckReturn(NVML_ERROR_LIBRARY_NOT_FOUND)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/vslamlab/lib/python3.12/site-packages/pynvml.py", line 1059, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+slurmstepd: error: *** JOB 3014025 ON uc3n083 CANCELLED AT 2026-01-25T16:07:30 ***

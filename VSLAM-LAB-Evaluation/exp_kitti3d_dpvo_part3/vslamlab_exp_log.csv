@@ -1,0 +1,16 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+dpvo,kitti_3d_corrupted,mix_brightness_contrast_00_1,0,completed,True,280.055725812912,2.001861572265625,0.0,4.63092041015625,nan,none
+dpvo,kitti_3d_corrupted,mix_brightness_contrast_00_2,0,completed,True,160.058926820755,2.138126373291016,0.0,4.50396728515625,nan,none
+dpvo,kitti_3d_corrupted,mix_brightness_contrast_00_3,0,completed,True,150.02517580986023,7.650382995605469,0.0,4.52740478515625,nan,none
+dpvo,kitti_3d_corrupted,mix_brightness_contrast_00_4,0,completed,True,120.02244782447816,7.717414855957031,0.0,4.39263916015625,nan,none
+dpvo,kitti_3d_corrupted,mix_brightness_contrast_00_5,0,completed,True,120.02358675003052,2.103302001953125,0.0,4.41021728515625,nan,none
+dpvo,kitti_3d_corrupted,mix_fog_contrast_00_1,0,completed,True,150.02472949028015,2.1588058471679688,0.0,4.38482666015625,nan,none
+dpvo,kitti_3d_corrupted,mix_fog_contrast_00_2,0,completed,True,140.02561116218567,2.0772361755371094,0.0,4.74224853515625,nan,none
+dpvo,kitti_3d_corrupted,mix_fog_contrast_00_3,0,completed,True,130.02306389808655,7.824840545654297,0.0,4.51568603515625,nan,none
+dpvo,kitti_3d_corrupted,mix_fog_contrast_00_4,0,completed,True,120.02316188812256,2.032764434814453,0.0,4.30474853515625,nan,none
+dpvo,kitti_3d_corrupted,mix_fog_contrast_00_5,0,completed,True,120.02307987213136,2.0691146850585938,0.0,4.30474853515625,nan,none
+dpvo,kitti_3d_corrupted,mix_rain_contrast_00_1,0,completed,True,150.0243215560913,7.843109130859375,0.0,4.40240478515625,nan,none
+dpvo,kitti_3d_corrupted,mix_rain_contrast_00_2,0,completed,True,150.0237066745758,2.1195030212402344,0.0,4.40240478515625,nan,none
+dpvo,kitti_3d_corrupted,mix_rain_contrast_00_3,0,completed,True,150.02497696876526,8.550140380859375,0.0,4.53326416015625,nan,none
+dpvo,kitti_3d_corrupted,mix_rain_contrast_00_4,0,completed,True,140.02339482307434,7.729122161865234,0.0,4.74224853515625,nan,none
+dpvo,kitti_3d_corrupted,mix_rain_contrast_00_5,0,completed,True,120.02216935157776,2.0512313842773438,0.0,4.62115478515625,,none

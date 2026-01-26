@@ -1,0 +1,7 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+droidslam,kitti_3d_corrupted,iso_noise_00_5,0,completed,True,3290.206990480423,4.955055236816406,0.0,51.98309326171875,nan,none
+droidslam,kitti_3d_corrupted,flash_00_1,0,completed,True,2880.2174093723297,4.287834167480469,0.0,50.93035888671875,nan,none
+droidslam,kitti_3d_corrupted,flash_00_2,0,completed,True,2870.208098888397,3.989585876464844,0.0,51.20379638671875,nan,none
+droidslam,kitti_3d_corrupted,flash_00_3,0,completed,True,2920.2097663879395,4.271759033203125,0.0,51.02996826171875,nan,none
+droidslam,kitti_3d_corrupted,flash_00_4,0,completed,True,2890.410190343857,4.2169189453125,0.0,51.02020263671875,nan,none
+droidslam,kitti_3d_corrupted,flash_00_5,0,completed,True,2930.2116305828094,4.195842742919922,0.0,51.09637451171875,,none

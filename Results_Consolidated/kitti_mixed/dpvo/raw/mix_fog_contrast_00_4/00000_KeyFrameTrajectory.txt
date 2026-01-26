@@ -1,0 +1,1 @@
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti3d_dpvo_part3/KITTI_3D_CORRUPTED/mix_fog_contrast_00_4/00000_KeyFrameTrajectory.txt

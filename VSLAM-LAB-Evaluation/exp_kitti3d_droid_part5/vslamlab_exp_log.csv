@@ -1,0 +1,11 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+droidslam,kitti_3d_corrupted,fog_00_1,0,completed,True,1840.15354681015,5.084484100341797,0.0,54.88348388671875,nan,none
+droidslam,kitti_3d_corrupted,fog_00_2,0,completed,True,1680.1162474155426,6.44598388671875,0.0,54.97332763671875,nan,none
+droidslam,kitti_3d_corrupted,fog_00_3,0,completed,True,1710.1308307647705,4.404148101806641,0.0,55.05145263671875,nan,none
+droidslam,kitti_3d_corrupted,fog_00_4,0,completed,True,1700.4286122322085,6.101764678955078,0.0,55.04559326171875,nan,none
+droidslam,kitti_3d_corrupted,fog_00_5,0,completed,True,1680.134182691574,4.096611022949219,0.0,54.84442138671875,nan,none
+droidslam,kitti_3d_corrupted,rain_00_1,0,completed,True,1660.156376361847,5.21826171875,0.0,54.55340576171875,nan,none
+droidslam,kitti_3d_corrupted,rain_00_2,0,completed,True,1650.422307729721,7.407672882080078,0.0,54.47332763671875,nan,none
+droidslam,kitti_3d_corrupted,rain_00_3,0,completed,True,1610.118693113327,5.225597381591797,0.0,54.37957763671875,nan,none
+droidslam,kitti_3d_corrupted,rain_00_4,0,completed,True,1440.180160999298,5.050708770751953,0.0,53.46746826171875,nan,none
+droidslam,kitti_3d_corrupted,rain_00_5,0,completed,True,1390.3413302898407,5.0699462890625,0.0,53.10418701171875,,none

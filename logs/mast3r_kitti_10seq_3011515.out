@@ -1,0 +1,16 @@
+[INFO] Running MASt3R-SLAM on KITTI clean 00-10 ...
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n103
+Job ID: 3011515
+Cluster: uc3
+User/Group: ma_abthomas/ma_ma
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:00:23
+CPU Efficiency: 0.49% of 01:18:24 core-walltime
+Job Wall-clock time: 00:09:48
+Memory Utilized: 5.52 GB
+Memory Efficiency: 8.62% of 64.00 GB (64.00 GB/node)

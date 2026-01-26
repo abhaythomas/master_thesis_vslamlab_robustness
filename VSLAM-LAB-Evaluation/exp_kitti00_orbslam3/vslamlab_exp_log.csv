@@ -1,0 +1,3 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION,num_frames,num_tracked_frames,num_evaluated_frames
+orbslam3-dev,kitti,0,0,,,0.0,0.0,0.0,0.0,,none,,,
+orbslam3-dev,kitti,00,0,,,0.0,0.0,0.0,0.0,,none,0,0,0

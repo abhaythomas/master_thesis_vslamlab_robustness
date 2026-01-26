@@ -1,0 +1,134 @@
+[INFO] Running MASt3R-SLAM on KITTI clean 00-10 ...
+[95m[vslamlab_utilities.py][0m Experiment summary: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+     - exp_kitti_clean_mast3rslam_10seq
+
+[95m[vslamlab_utilities.py][0m Checking experiment baselines:
+    - [96mmast3rslam[0m:[92m is installed[0m
+
+[95m[vslamlab_utilities.py][0m Checking experiment sequences:
+    - Sequences available: [92m11[0m / 11
+
+[95m[vslamlab_run.py][0m Running experiments (in /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml) ...
+
+[95m[run_functions.py][0m Running (it 1/1) [96mmast3rslam[0m in [38;2;255;165;0m00[0m of [38;2;255;165;0mkitti[0m ...
+        log file: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/00/system_output_00000.txt
+
+[95m[vslamlab_run.py][0m : Experiment report: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+    [93mNumber of executed iterations: 1 / 11 [0m
+    [93mAverage time per iteration: 2.83 minutes[0m
+    [93mTotal time consumed: 2.83 minutes[0m
+    [93mRemaining time until completion: 28.35 minutes[0m
+
+[95m[run_functions.py][0m Running (it 1/1) [96mmast3rslam[0m in [38;2;255;165;0m01[0m of [38;2;255;165;0mkitti[0m ...
+        log file: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/01/system_output_00000.txt
+
+[95m[vslamlab_run.py][0m : Experiment report: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+    [93mNumber of executed iterations: 2 / 11 [0m
+    [93mAverage time per iteration: 1.50 minutes[0m
+    [93mTotal time consumed: 3.00 minutes[0m
+    [93mRemaining time until completion: 13.51 minutes[0m
+
+[95m[run_functions.py][0m Running (it 1/1) [96mmast3rslam[0m in [38;2;255;165;0m02[0m of [38;2;255;165;0mkitti[0m ...
+        log file: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/02/system_output_00000.txt
+
+[95m[vslamlab_run.py][0m : Experiment report: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+    [93mNumber of executed iterations: 3 / 11 [0m
+    [93mAverage time per iteration: 1.06 minutes[0m
+    [93mTotal time consumed: 3.17 minutes[0m
+    [93mRemaining time until completion: 8.45 minutes[0m
+
+[95m[run_functions.py][0m Running (it 1/1) [96mmast3rslam[0m in [38;2;255;165;0m03[0m of [38;2;255;165;0mkitti[0m ...
+        log file: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/03/system_output_00000.txt
+
+[95m[vslamlab_run.py][0m : Experiment report: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+    [93mNumber of executed iterations: 4 / 11 [0m
+    [93mAverage time per iteration: 50.04 seconds[0m
+    [93mTotal time consumed: 3.34 minutes[0m
+    [93mRemaining time until completion: 5.84 minutes[0m
+
+[95m[run_functions.py][0m Running (it 1/1) [96mmast3rslam[0m in [38;2;255;165;0m04[0m of [38;2;255;165;0mkitti[0m ...
+        log file: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/04/system_output_00000.txt
+
+[95m[vslamlab_run.py][0m : Experiment report: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+    [93mNumber of executed iterations: 5 / 11 [0m
+    [93mAverage time per iteration: 42.04 seconds[0m
+    [93mTotal time consumed: 3.50 minutes[0m
+    [93mRemaining time until completion: 4.20 minutes[0m
+
+[95m[run_functions.py][0m Running (it 1/1) [96mmast3rslam[0m in [38;2;255;165;0m05[0m of [38;2;255;165;0mkitti[0m ...
+        log file: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/05/system_output_00000.txt
+
+[95m[vslamlab_run.py][0m : Experiment report: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+    [93mNumber of executed iterations: 6 / 11 [0m
+    [93mAverage time per iteration: 36.70 seconds[0m
+    [93mTotal time consumed: 3.67 minutes[0m
+    [93mRemaining time until completion: 3.06 minutes[0m
+
+[95m[run_functions.py][0m Running (it 1/1) [96mmast3rslam[0m in [38;2;255;165;0m06[0m of [38;2;255;165;0mkitti[0m ...
+        log file: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/06/system_output_00000.txt
+
+[95m[vslamlab_run.py][0m : Experiment report: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+    [93mNumber of executed iterations: 7 / 11 [0m
+    [93mAverage time per iteration: 32.89 seconds[0m
+    [93mTotal time consumed: 3.84 minutes[0m
+    [93mRemaining time until completion: 2.19 minutes[0m
+
+[95m[run_functions.py][0m Running (it 1/1) [96mmast3rslam[0m in [38;2;255;165;0m07[0m of [38;2;255;165;0mkitti[0m ...
+        log file: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/07/system_output_00000.txt
+
+[95m[vslamlab_run.py][0m : Experiment report: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+    [93mNumber of executed iterations: 8 / 11 [0m
+    [93mAverage time per iteration: 30.03 seconds[0m
+    [93mTotal time consumed: 4.00 minutes[0m
+    [93mRemaining time until completion: 1.50 minutes[0m
+
+[95m[run_functions.py][0m Running (it 1/1) [96mmast3rslam[0m in [38;2;255;165;0m08[0m of [38;2;255;165;0mkitti[0m ...
+        log file: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/08/system_output_00000.txt
+
+[95m[vslamlab_run.py][0m : Experiment report: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+    [93mNumber of executed iterations: 9 / 11 [0m
+    [93mAverage time per iteration: 27.81 seconds[0m
+    [93mTotal time consumed: 4.17 minutes[0m
+    [93mRemaining time until completion: 55.62 seconds[0m
+
+[95m[run_functions.py][0m Running (it 1/1) [96mmast3rslam[0m in [38;2;255;165;0m09[0m of [38;2;255;165;0mkitti[0m ...
+        log file: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/09/system_output_00000.txt
+
+[95m[vslamlab_run.py][0m : Experiment report: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+    [93mNumber of executed iterations: 10 / 11 [0m
+    [93mAverage time per iteration: 26.03 seconds[0m
+    [93mTotal time consumed: 4.34 minutes[0m
+    [93mRemaining time until completion: 26.03 seconds[0m
+
+[95m[run_functions.py][0m Running (it 1/1) [96mmast3rslam[0m in [38;2;255;165;0m10[0m of [38;2;255;165;0mkitti[0m ...
+        log file: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq/KITTI/10/system_output_00000.txt
+
+[95m[vslamlab_run.py][0m : Experiment report: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+    [93mNumber of executed iterations: 11 / 11 [0m
+    [93mAverage time per iteration: 24.58 seconds[0m
+    [93mTotal time consumed: 4.51 minutes[0m
+    [93mRemaining time until completion: 0.00 seconds[0m
+[93m[Experiment runtime: 4.53 minutes][0m
+[95m[vslamlab_utilities.py][0m Experiment summary: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/configs/exp_kitti_clean_mast3rslam_10seq.yaml
+     - exp_kitti_clean_mast3rslam_10seq
+
+[95m[vslamlab_utilities.py][0m Checking experiment baselines:
+    - [96mmast3rslam[0m:[92m is installed[0m
+
+[95m[vslamlab_utilities.py][0m Checking experiment sequences:
+    - Sequences available: [92m11[0m / 11
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc2n916
+Job ID: 3000694
+Cluster: uc3
+User/Group: ma_abthomas/ma_ma
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:01:09
+CPU Efficiency: 2.44% of 00:47:04 core-walltime
+Job Wall-clock time: 00:05:53
+Memory Utilized: 1.01 GB
+Memory Efficiency: 1.57% of 64.00 GB (64.00 GB/node)

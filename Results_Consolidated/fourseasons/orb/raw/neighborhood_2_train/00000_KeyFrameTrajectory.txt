@@ -1,0 +1,1 @@
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_orb2/4SEASONS/neighborhood_2_train/00000_KeyFrameTrajectory.txt

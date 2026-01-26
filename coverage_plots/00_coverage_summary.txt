@@ -1,0 +1,11 @@
+Sequence: 00
+max_diff: 0.01
+plane   : xz
+timestamp_scale: 1000000.0 (keys)
+
+Coverage DPVO : 100.00%
+Coverage DROID: 100.00%
+Coverage ORB  : 45.87%
+
+Common keys count: 2083
+GT total unique keys: 4541

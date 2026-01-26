@@ -1,0 +1,7 @@
+Sequence: far_focus_00_1
+
+=== APE (Absolute Pose Error) ===
+{'rmse': 125.38957491027, 'mean': 107.33292016395548, 'median': np.float64(106.70878037374816), 'std': 64.8242990340518, 'min': np.float64(3.4678726276385436), 'max': np.float64(246.48583883873778), 'sse': np.float64(71396079.09814526)}
+
+=== RPE (Relative Pose Error, delta=1 frame) ===
+{'rmse': 0.5404002743452884, 'mean': 0.4807755861319832, 'median': np.float64(0.48887397230092), 'std': 0.24675350512588656, 'min': np.float64(0.0019267123567160286), 'max': np.float64(1.0851552865477672), 'sse': np.float64(1325.8273525665816)}

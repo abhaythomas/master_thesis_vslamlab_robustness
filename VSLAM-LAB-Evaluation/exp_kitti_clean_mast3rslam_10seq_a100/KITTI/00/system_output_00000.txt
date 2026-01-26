@@ -1,0 +1,18 @@
+✨ Pixi task (execute_mono in mast3rslam): vslamlab_mast3rslam_mono --sequence_path /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI/00 --calibration_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI/00/calibration.yaml --rgb_txt /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq_a100/KITTI/00/rgb_exp.txt --exp_folder /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_mast3rslam_10seq_a100/KITTI/00 --exp_it 0 --settings_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MASt3R-SLAM/vslamlab_mast3rslam_settings.yaml --verbose 0 --mode mono --checkpoints_dir /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MASt3R-SLAM/checkpoints --use_calib 0
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
+{'cam_mono': 'kitti', 'single_thread': True, 'use_calib': False, 'dataset': {'subsample': 2, 'img_downsample': 1, 'center_principle_point': True}, 'matching': {'max_iter': 10, 'lambda_init': 1e-08, 'convergence_thresh': 1e-06, 'dist_thresh': 0.1, 'radius': 3, 'dilation_max': 5, 'use_cuda': False}, 'tracking': {'min_match_frac': 0.05, 'max_iters': 30, 'C_conf': 0.0, 'Q_conf': 1.5, 'rel_error': 0.001, 'delta_norm': 0.001, 'huber': 1.345, 'match_frac_thresh': 0.333, 'sigma_ray': 0.003, 'sigma_dist': 10.0, 'sigma_pixel': 1.0, 'sigma_depth': 10.0, 'sigma_point': 0.05, 'pixel_border': -10, 'depth_eps': 1e-06, 'filtering_mode': 'weighted_pointmap', 'filtering_score': 'median'}, 'local_opt': {'pin': 1, 'window_size': 10000.0, 'C_conf': 0.0, 'Q_conf': 1.5, 'min_match_frac': 0.1, 'pixel_border': -10, 'depth_eps': 1e-06, 'max_iters': 10, 'sigma_ray': 0.003, 'sigma_dist': 10.0, 'sigma_pixel': 1.0, 'sigma_depth': 10.0, 'sigma_point': 0.05, 'delta_norm': 1e-08, 'use_cuda': False}, 'retrieval': {'k': 3, 'min_thresh': 0.005}, 'reloc': {'min_match_frac': 0.3, 'strict': True}}
+Use calibration: False
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/bin/vslamlab_mast3rslam_mono", line 9, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/site-packages/mast3r_slam/vslamlab_mast3rslam_mono.py", line 189, in main
+    keyframes = SharedKeyframes(manager, h, w)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/site-packages/mast3r_slam/frame.py", line 234, in __init__
+    self.dataset_idx = torch.zeros(buffer, device=device, dtype=torch.int).share_memory_()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/mast3rslam/lib/python3.11/site-packages/torch/cuda/__init__.py", line 372, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead

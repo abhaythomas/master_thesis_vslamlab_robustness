@@ -1,0 +1,40 @@
+✨ Pixi task (execute_mono in dpvo): vslamlab_dpvo_mono --sequence_path /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/ETH/table_3 --calibration_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/ETH/table_3/calibration.yaml --rgb_txt /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_demo_dpvo/ETH/table_3/rgb_exp.txt --exp_folder /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_demo_dpvo/ETH/table_3 --exp_it 0 --settings_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/DPVO/vslamlab_dpvo_settings.yaml --verbose 1 --mode mono --network /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/DPVO/dpvo.pth
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/dpvo/net.py:187: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled=False)
+Running with config...
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/DPVO/vslamlab_dpvo_settings.yaml
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/dpvo/net.py:187: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled=False)
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/dpvo/dpvo.py:391: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.cfg.MIXED_PRECISION):
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/bin/vslamlab_dpvo_mono", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/vslamlab_dpvo_mono.py", line 79, in main
+    (poses, tstamps), (points, colors, calib) = run(cfg, args.network, 
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/vslamlab_dpvo_mono.py", line 44, in run
+    slam(t, image, intrinsics)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/dpvo/dpvo.py", line 393, in __call__
+    self.network.patchify(image,
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/dpvo/net.py", line 139, in forward
+    imap = altcorr.patchify(imap[0], coords, 0).view(b, -1, DIM, 1, 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/dpvo/altcorr/correlation.py", line 57, in patchify
+    offset = (coords - coords.floor()).to(net.device)
+                       ^^^^^^^^^^^^^^
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

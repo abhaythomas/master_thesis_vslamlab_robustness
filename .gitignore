@@ -1,0 +1,18 @@
+# Exclude user-requested big folders
+3DCommonCorruptions/
+VSLAM-LAB-Benchmark-TMP/
+KITTI_BACKUP/
+VSLAM-LAB-orb3/
+VSLAM-LAB-Benchmark/
+
+# Env / caches
+miniconda3/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Common junk
+.DS_Store
+Thumbs.db

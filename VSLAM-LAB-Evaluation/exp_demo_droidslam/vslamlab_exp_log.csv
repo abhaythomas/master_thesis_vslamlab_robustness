@@ -1,0 +1,2 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+droidslam,eth,table_3,0,completed,False,80.06274724006653,1.5307197570800781,0.0,34.72918701171875,,none

@@ -1,0 +1,1 @@
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_droid_kitti_corrupted_seq00/KITTI_CORRUPTED/00_contrast_s2/00000_KeyFrameTrajectory.txt

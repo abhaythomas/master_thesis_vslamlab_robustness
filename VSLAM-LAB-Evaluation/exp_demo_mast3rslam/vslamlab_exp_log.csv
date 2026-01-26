@@ -1,0 +1,2 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+mast3rslam,eth,table_3,0,completed,False,40.0555145740509,4.445018768310547,0.0,6.44403076171875,,none

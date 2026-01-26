@@ -1,0 +1,13 @@
+✨ Pixi task (execute_mono in dpvo): vslamlab_dpvo_mono --sequence_path /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_3D_CORRUPTED/near_focus_00_5 --calibration_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_3D_CORRUPTED/near_focus_00_5/calibration.yaml --rgb_txt /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti3d_dpvo/KITTI_3D_CORRUPTED/near_focus_00_5/rgb_exp.txt --exp_folder /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti3d_dpvo/KITTI_3D_CORRUPTED/near_focus_00_5 --exp_it 0 --settings_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/DPVO/vslamlab_dpvo_settings.yaml --verbose 1 --mode mono --network /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/DPVO/dpvo.pth
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/dpvo/net.py:187: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled=False)
+Running with config...
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/DPVO/vslamlab_dpvo_settings.yaml
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/dpvo/net.py:187: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled=False)
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/dpvo/dpvo.py:391: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.cfg.MIXED_PRECISION):
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/dpvo/dpvo.py:249: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=self.cfg.MIXED_PRECISION):
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/dpvo/lib/python3.11/site-packages/dpvo/dpvo.py:332: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=True):

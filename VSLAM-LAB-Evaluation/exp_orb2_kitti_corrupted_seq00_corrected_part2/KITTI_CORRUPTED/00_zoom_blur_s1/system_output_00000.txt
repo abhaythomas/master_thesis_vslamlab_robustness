@@ -1,0 +1,118 @@
+✨ Pixi task (execute_mono in orbslam2): vslamlab_orbslam2_mono sequence_path:/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_CORRUPTED/00_zoom_blur_s1 calibration_yaml:/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_CORRUPTED/00_zoom_blur_s1/calibration.yaml rgb_txt:/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_orb2_kitti_corrupted_seq00_corrected_part3/KITTI_CORRUPTED/00_zoom_blur_s1/rgb_exp.txt exp_folder:/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_orb2_kitti_corrupted_seq00_corrected_part3/KITTI_CORRUPTED/00_zoom_blur_s1 exp_id:0 settings_yaml:/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/ORB_SLAM2/vslamlab_orbslam2_settings.yaml verbose:1 mode:mono vocabulary:/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/ORB_SLAM2/Vocabulary/ORBvoc.txt
+
+[mono_vslamlab.cpp] Path to sequence = /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_CORRUPTED/00_zoom_blur_s1
+[mono_vslamlab.cpp] Path to calibration.yaml = /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_CORRUPTED/00_zoom_blur_s1/calibration.yaml
+[mono_vslamlab.cpp] Path to rgb_txt = /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_orb2_kitti_corrupted_seq00_corrected_part3/KITTI_CORRUPTED/00_zoom_blur_s1/rgb_exp.txt
+[mono_vslamlab.cpp] Path to exp_folder = /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_orb2_kitti_corrupted_seq00_corrected_part3/KITTI_CORRUPTED/00_zoom_blur_s1
+[mono_vslamlab.cpp] Exp id = 0
+[mono_vslamlab.cpp] Path to settings_yaml = /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/ORB_SLAM2/vslamlab_orbslam2_settings.yaml
+[mono_vslamlab.cpp] Activate Visualization = 1
+[mono_vslamlab.cpp] Path to vocabulary = /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/ORB_SLAM2/Vocabulary/ORBvoc.txt
+
+ORB-SLAM2 Copyright (C) 2014-2016 Raul Mur-Artal, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: Monocular
+
+Loading ORB Vocabulary. This could take a while...
+Vocabulary loaded!
+
+
+[MapDrawer.cc] Viewer Parameters: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/ORB_SLAM2/vslamlab_orbslam2_settings.yaml
+- KeyFrameSize: 0.05
+- KeyFrameLineWidth: 1
+- GraphLineWidth: 0.9
+- PointSize: 2
+- CameraSize: 0.08
+- CameraLineWidth: 3
+
+[Tracking.cc] Camera Parameters: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_CORRUPTED/00_zoom_blur_s1/calibration.yaml
+- fx: 718.856
+- fy: 718.856
+- cx: 607.193
+- cy: 185.216
+- k1: 0
+- k2: 0
+- p1: 0
+- p2: 0
+- fps: 10
+- RGB: 0
+
+[Tracking.cc] ORB Extractor Parameters: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/ORB_SLAM2/vslamlab_orbslam2_settings.yaml
+- Number of Features: 2000
+- Scale Levels: 8
+- Scale Factor: 1.2
+- Initial Fast Threshold: 20
+- Minimum Fast Threshold: 7
+
+[Viewer.cc] Camera Parameters: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_CORRUPTED/00_zoom_blur_s1/calibration.yaml
+- w: 1241
+- h: 376
+- fps: 10
+
+[Viewer.cc] Viewer Parameters: /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/ORB_SLAM2/vslamlab_orbslam2_settings.yaml
+- mViewpointX: 0
+- mViewpointY: -0.7
+- mViewpointZ: -1.8
+- mViewpointF: 500
+
+-------
+Start processing sequence ...
+Images in the sequence: 4541
+
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+New Map created with 143 points
+Loop detected!
+Local Mapping STOP
+Local Mapping RELEASE
+Starting Global Bundle Adjustment
+Global Bundle Adjustment finished
+Updating map ...
+Local Mapping STOP
+Local Mapping RELEASE
+Map updated!
+Loop detected!
+Local Mapping STOP
+Local Mapping RELEASE
+Starting Global Bundle Adjustment
+Global Bundle Adjustment finished
+Updating map ...
+Local Mapping STOP
+Local Mapping RELEASE
+Map updated!
+Loop detected!
+Local Mapping STOP
+Local Mapping RELEASE
+Starting Global Bundle Adjustment
+Global Bundle Adjustment finished
+Updating map ...
+Local Mapping STOP
+Local Mapping RELEASE
+Map updated!
+Loop detected!
+Local Mapping STOP
+Local Mapping RELEASE
+Starting Global Bundle Adjustment
+Global Bundle Adjustment finished
+Updating map ...
+Local Mapping STOP
+Local Mapping RELEASE
+Map updated!
+Loop detected!
+Local Mapping STOP
+Local Mapping RELEASE
+Starting Global Bundle Adjustment
+Global Bundle Adjustment finished
+Updating map ...
+Map updated!
+-------
+
+median tracking time: 0.0183299
+mean tracking time: 0.0227168
+
+Saving keyframe trajectory to /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_orb2_kitti_corrupted_seq00_corrected_part3/KITTI_CORRUPTED/00_zoom_blur_s1/00000_KeyFrameTrajectory.txt ...
+
+trajectory saved!

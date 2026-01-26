@@ -1,0 +1,16 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+droidslam,kitti_3d_corrupted,mix_brightness_contrast_00_1,0,completed,True,1850.2871942520144,3.461231231689453,0.0,54.82489013671875,nan,none
+droidslam,kitti_3d_corrupted,mix_brightness_contrast_00_2,0,completed,True,1620.110538482666,10.848724365234377,0.0,54.88934326171875,nan,none
+droidslam,kitti_3d_corrupted,mix_brightness_contrast_00_3,0,completed,True,1670.149437904358,16.161380767822266,0.0,54.92645263671875,nan,none
+droidslam,kitti_3d_corrupted,mix_brightness_contrast_00_4,0,completed,True,1650.3473887443542,18.62312698364257,0.0,55.05340576171875,nan,none
+droidslam,kitti_3d_corrupted,mix_brightness_contrast_00_5,0,completed,True,1630.1296074390411,7.8662109375,0.0,55.16864013671875,nan,none
+droidslam,kitti_3d_corrupted,mix_fog_contrast_00_1,0,completed,True,1680.1310431957245,15.802810668945312,0.0,54.90301513671875,nan,none
+droidslam,kitti_3d_corrupted,mix_fog_contrast_00_2,0,completed,True,1670.3654248714447,12.199569702148438,0.0,54.99285888671875,nan,none
+droidslam,kitti_3d_corrupted,mix_fog_contrast_00_3,0,completed,True,1620.1370561122894,14.753795623779297,0.01123046875,54.84637451171875,nan,none
+droidslam,kitti_3d_corrupted,mix_fog_contrast_00_4,0,completed,True,1570.1533205509186,0.7657814025878906,0.0,54.67254638671875,nan,none
+droidslam,kitti_3d_corrupted,mix_fog_contrast_00_5,0,completed,True,1390.3221096992493,13.971981048583984,0.0,53.15496826171875,nan,none
+droidslam,kitti_3d_corrupted,mix_rain_contrast_00_1,0,completed,True,1660.1706874370575,13.611072540283203,0.0,54.74285888671875,nan,none
+droidslam,kitti_3d_corrupted,mix_rain_contrast_00_2,0,completed,True,1610.1694753170011,1.7032432556152344,0.182861328125,54.72332763671875,nan,none
+droidslam,kitti_3d_corrupted,mix_rain_contrast_00_3,0,completed,True,1580.1960535049438,20.802207946777344,0.0,54.67449951171875,nan,none
+droidslam,kitti_3d_corrupted,mix_rain_contrast_00_4,0,completed,True,1470.248773097992,13.14101791381836,0.0,54.40106201171875,nan,none
+droidslam,kitti_3d_corrupted,mix_rain_contrast_00_5,0,completed,True,1390.2300972938538,18.992435455322266,0.0,54.31707763671875,,none

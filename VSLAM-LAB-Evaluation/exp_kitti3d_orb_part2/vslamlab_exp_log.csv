@@ -1,0 +1,11 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+orbslam2,kitti_3d_corrupted,fog_00_1,0,completed,True,645.2265145778656,,,,nan,none
+orbslam2,kitti_3d_corrupted,fog_00_2,0,completed,True,658.8702228069305,,,,nan,none
+orbslam2,kitti_3d_corrupted,fog_00_3,0,completed,True,634.6051878929138,,,,nan,none
+orbslam2,kitti_3d_corrupted,fog_00_4,0,completed,True,623.774356842041,,,,nan,none
+orbslam2,kitti_3d_corrupted,fog_00_5,0,completed,True,621.1732568740845,,,,nan,none
+orbslam2,kitti_3d_corrupted,rain_00_1,0,completed,True,610.4001049995422,,,,nan,none
+orbslam2,kitti_3d_corrupted,rain_00_2,0,completed,True,629.8130745887756,,,,nan,none
+orbslam2,kitti_3d_corrupted,rain_00_3,0,completed,True,662.6783022880554,,,,nan,none
+orbslam2,kitti_3d_corrupted,rain_00_4,0,completed,True,628.731208562851,,,,nan,none
+orbslam2,kitti_3d_corrupted,rain_00_5,0,completed,True,667.1144247055054,N/A,N/A,N/A,,none

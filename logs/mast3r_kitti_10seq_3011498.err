@@ -1,0 +1,2 @@
+✨ Pixi task (vslamlab in default): pixi run -e vslamlab python vslamlab_run.py $ARGUMENT $OVEWRITE && pixi run -e vslamlab python vslamlab_eval.py $ARGUMENT $OVEWRITE
+slurmstepd: error: *** JOB 3011498 ON uc2n906 CANCELLED AT 2026-01-24T15:25:08 ***

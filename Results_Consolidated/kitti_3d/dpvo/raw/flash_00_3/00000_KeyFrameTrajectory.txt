@@ -1,0 +1,1 @@
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti3d_dpvo/KITTI_3D_CORRUPTED/flash_00_3/00000_KeyFrameTrajectory.txt
