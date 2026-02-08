@@ -1,0 +1,21 @@
+✨ Pixi task (execute_mono in monogs): vslamlab_monogs_mono --sequence_path /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI/00 --calibration_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI/00/calibration.yaml --rgb_txt /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_monogs_00_a100/KITTI/00/rgb_exp.txt --exp_folder /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_clean_monogs_00_a100/KITTI/00 --exp_it 0 --settings_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml --verbose 0 --mode mono
+Loading config from /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml
+MonoGS:         use_gui=False
+MonoGS: Resetting the system
+Process Process-3:
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/utils/slam_backend.py", line 403, in run
+    self.add_next_kf(
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/utils/slam_backend.py", line 68, in add_next_kf
+    self.gaussians.extend_from_pcd_seq(
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/gaussian_splatting/scene/gaussian_model.py", line 239, in extend_from_pcd_seq
+    self.create_pcd_from_image(cam_info, init, scale=scale, depthmap=depthmap)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/gaussian_splatting/scene/gaussian_model.py", line 131, in create_pcd_from_image
+    return self.create_pcd_from_image_and_depth(cam, rgb, depth, init)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/gaussian_splatting/scene/gaussian_model.py", line 185, in create_pcd_from_image_and_depth
+    distCUDA2(torch.from_numpy(np.asarray(pcd.points)).float().cuda()),
+RuntimeError: parallel_for failed: cudaErrorNoKernelImageForDevice: no kernel image is available for execution on the device

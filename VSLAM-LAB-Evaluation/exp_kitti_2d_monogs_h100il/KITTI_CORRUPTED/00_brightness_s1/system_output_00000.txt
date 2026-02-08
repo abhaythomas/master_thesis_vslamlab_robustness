@@ -1,0 +1,40 @@
+✨ Pixi task (execute_mono in monogs): vslamlab_monogs_mono --sequence_path /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_CORRUPTED/00_brightness_s1 --calibration_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_CORRUPTED/00_brightness_s1/calibration.yaml --rgb_txt /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_2d_monogs_h100il/KITTI_CORRUPTED/00_brightness_s1/rgb_exp.txt --exp_folder /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_2d_monogs_h100il/KITTI_CORRUPTED/00_brightness_s1 --exp_it 0 --settings_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml --verbose 0 --mode mono
+Loading config from /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml
+MonoGS:         use_gui=False
+MonoGS: Resetting the system
+MonoGS: Initialized map
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Performing initial BA for initialization
+MonoGS: Initialized SLAM
+MonoGS: Resetting the opacity of non-visible Gaussians
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/utils/slam_utils.py:141: UserWarning: std(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at /home/conda/feedstock_root/build_artifacts/libtorch_1746251341172/work/aten/src/ATen/native/ReduceOps.cpp:1839.)
+  return valid_depth.median(), valid_depth.std(), valid
+Process Process-3:
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/utils/slam_backend.py", line 417, in run
+    self.add_next_kf(cur_frame_idx, viewpoint, depth_map=depth_map)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/utils/slam_backend.py", line 68, in add_next_kf
+    self.gaussians.extend_from_pcd_seq(
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/gaussian_splatting/scene/gaussian_model.py", line 241, in extend_from_pcd_seq
+    self.extend_from_pcd(
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/gaussian_splatting/scene/gaussian_model.py", line 224, in extend_from_pcd
+    self.densification_postfix(
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/gaussian_splatting/scene/gaussian_model.py", line 577, in densification_postfix
+    optimizable_tensors = self.cat_tensors_to_optimizer(d)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/gaussian_splatting/scene/gaussian_model.py", line 530, in cat_tensors_to_optimizer
+    stored_state["exp_avg"] = torch.cat(
+RuntimeError: CUDA error: invalid configuration argument
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[W130 15:36:46.599105690 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+Eval: Total time 461.95187500000003
+Eval: Total FPS 9.830028290284567
+MonoGS: Backend stopped and joined the main thread
+MonoGS: Done.
+[W130 15:41:12.019171551 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]

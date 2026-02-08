@@ -1,0 +1,12 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+monogs,kitti,00,0,completed,True,7350.537093639374,13.310718536376951,0.0,6.00396728515625,nan,none
+monogs,kitti,01,0,completed,True,3200.3913843631744,4.507190704345703,0.0,3.28912353515625,nan,none
+monogs,kitti,02,0,completed,True,2590.2598836421967,5.066047668457031,0.00146484375,3.13287353515625,nan,none
+monogs,kitti,03,0,completed,True,4400.547842979431,3.7437782287597656,0.0,3.73443603515625,,none
+monogs,kitti,04,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti,05,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti,06,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti,07,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti,08,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti,09,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti,10,0,nan,nan,0.0,0.0,0.0,0.0,nan,none

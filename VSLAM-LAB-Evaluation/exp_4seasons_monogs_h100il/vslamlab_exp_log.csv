@@ -1,0 +1,5 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+monogs,4seasons,neighborhood_2_train,0,completed,True,7290.652478456497,12.417179107666016,0.0,7.88897705078125,nan,none
+monogs,4seasons,neighborhood_3_train,0,completed,True,7040.651862382889,10.000175476074219,0.0,8.47686767578125,,none
+monogs,4seasons,neighborhood_4_train,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,4seasons,neighborhood_6_train,0,nan,nan,0.0,0.0,0.0,0.0,nan,none

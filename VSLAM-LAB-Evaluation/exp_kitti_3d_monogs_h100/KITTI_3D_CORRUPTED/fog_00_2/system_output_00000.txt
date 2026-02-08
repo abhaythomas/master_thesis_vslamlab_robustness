@@ -1,0 +1,36 @@
+✨ Pixi task (execute_mono in monogs): vslamlab_monogs_mono --sequence_path /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_3D_CORRUPTED/fog_00_2 --calibration_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_3D_CORRUPTED/fog_00_2/calibration.yaml --rgb_txt /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_3d_monogs_h100/KITTI_3D_CORRUPTED/fog_00_2/rgb_exp.txt --exp_folder /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_3d_monogs_h100/KITTI_3D_CORRUPTED/fog_00_2 --exp_it 0 --settings_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml --verbose 0 --mode mono
+Loading config from /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml
+MonoGS:         use_gui=False
+MonoGS: Resetting the system
+MonoGS: Initialized map
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Performing initial BA for initialization
+MonoGS: Initialized SLAM
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+[W131 18:55:38.253782334 CudaIPCTypes.cpp:100] Producer process tried to deallocate over 1000 memory blocks referred by consumer processes. Deallocation might be significantly slowed down. We assume it will never going to be the case, but if it is, please file but to https://github.com/pytorch/pytorch
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+Eval: Total time 4045.5225
+Eval: Total FPS 1.122475526956036
+Process Process-3:
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/utils/slam_backend.py", line 481, in run
+    self.frontend_queue.get()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/torch/multiprocessing/reductions.py", line 181, in rebuild_cuda_tensor
+    storage = storage_cls._new_shared_cuda(
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/torch/storage.py", line 1452, in _new_shared_cuda
+    return torch.UntypedStorage._new_shared_cuda(*args, **kwargs)
+RuntimeError: CUDA error: invalid device context
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[W131 19:11:25.047354431 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+MonoGS: Backend stopped and joined the main thread
+MonoGS: Done.
+[W131 19:11:48.128440636 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]

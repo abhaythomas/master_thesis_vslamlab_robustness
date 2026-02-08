@@ -1,0 +1,56 @@
+✨ Pixi task (execute_mono in monogs): vslamlab_monogs_mono --sequence_path /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_CORRUPTED/00_brightness_s2 --calibration_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/KITTI_CORRUPTED/00_brightness_s2/calibration.yaml --rgb_txt /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_2d_monogs_h100/KITTI_CORRUPTED/00_brightness_s2/rgb_exp.txt --exp_folder /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_kitti_2d_monogs_h100/KITTI_CORRUPTED/00_brightness_s2 --exp_it 0 --settings_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml --verbose 0 --mode mono
+Loading config from /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml
+MonoGS:         use_gui=False
+MonoGS: Resetting the system
+MonoGS: Initialized map
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Performing initial BA for initialization
+MonoGS: Initialized SLAM
+MonoGS: Resetting the opacity of non-visible Gaussians
+/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/utils/slam_utils.py:141: UserWarning: std(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at /home/conda/feedstock_root/build_artifacts/libtorch_1746251341172/work/aten/src/ATen/native/ReduceOps.cpp:1839.)
+  return valid_depth.median(), valid_depth.std(), valid
+Process Process-3:
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/utils/slam_backend.py", line 417, in run
+    self.add_next_kf(cur_frame_idx, viewpoint, depth_map=depth_map)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/utils/slam_backend.py", line 68, in add_next_kf
+    self.gaussians.extend_from_pcd_seq(
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/gaussian_splatting/scene/gaussian_model.py", line 241, in extend_from_pcd_seq
+    self.extend_from_pcd(
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/gaussian_splatting/scene/gaussian_model.py", line 224, in extend_from_pcd
+    self.densification_postfix(
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/gaussian_splatting/scene/gaussian_model.py", line 577, in densification_postfix
+    optimizable_tensors = self.cat_tensors_to_optimizer(d)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/gaussian_splatting/scene/gaussian_model.py", line 530, in cat_tensors_to_optimizer
+    stored_state["exp_avg"] = torch.cat(
+RuntimeError: CUDA error: invalid configuration argument
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/bin/vslamlab_monogs_mono", line 10, in <module>
+    sys.exit(main())
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/vslamlab_monogs_mono.py", line 262, in main
+    slam = SLAM(config, save_dir=exp_folder)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/vslamlab_monogs_mono.py", line 110, in __init__
+    self.frontend.run()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/utils/slam_frontend.py", line 482, in run
+    data = self.frontend_queue.get()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/site-packages/torch/multiprocessing/reductions.py", line 541, in rebuild_storage_fd
+    fd = df.detach()
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/resource_sharer.py", line 86, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/connection.py", line 502, in Client
+    c = SocketClient(address)
+  File "/pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/.pixi/envs/monogs/lib/python3.10/multiprocessing/connection.py", line 630, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+[W131 18:03:25.122711546 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W131 18:03:26.169338885 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]

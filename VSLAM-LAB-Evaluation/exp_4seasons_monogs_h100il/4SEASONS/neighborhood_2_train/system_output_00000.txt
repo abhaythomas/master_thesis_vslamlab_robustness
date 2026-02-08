@@ -1,0 +1,47 @@
+✨ Pixi task (execute_mono in monogs): vslamlab_monogs_mono --sequence_path /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/4SEASONS/neighborhood_2_train --calibration_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/4SEASONS/neighborhood_2_train/calibration.yaml --rgb_txt /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_4seasons_monogs_h100il/4SEASONS/neighborhood_2_train/rgb_exp.txt --exp_folder /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_4seasons_monogs_h100il/4SEASONS/neighborhood_2_train --exp_it 0 --settings_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml --verbose 0 --mode mono
+Loading config from /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml
+MonoGS:         use_gui=False
+MonoGS: Resetting the system
+MonoGS: Initialized map
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Performing initial BA for initialization
+MonoGS: Initialized SLAM
+MonoGS: Resetting the opacity of non-visible Gaussians
+[W130 16:17:22.348303928 CudaIPCTypes.cpp:100] Producer process tried to deallocate over 1000 memory blocks referred by consumer processes. Deallocation might be significantly slowed down. We assume it will never going to be the case, but if it is, please file but to https://github.com/pytorch/pytorch
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+Eval: Total time 7232.8185
+Eval: Total FPS 1.3867346456986305
+[W130 18:09:41.137409944 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+MonoGS: Backend stopped and joined the main thread
+MonoGS: Done.
+[W130 18:10:02.561968415 CudaIPCTypes.cpp:100] Producer process tried to deallocate over 1000 memory blocks referred by consumer processes. Deallocation might be significantly slowed down. We assume it will never going to be the case, but if it is, please file but to https://github.com/pytorch/pytorch
+[W130 18:10:07.382166888 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]

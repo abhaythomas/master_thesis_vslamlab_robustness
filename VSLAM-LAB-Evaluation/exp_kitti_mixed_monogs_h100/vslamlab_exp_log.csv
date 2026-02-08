@@ -1,0 +1,16 @@
+method_name,dataset_name,sequence_name,exp_it,STATUS,SUCCESS,TIME,RAM,SWAP,GPU,COMMENTS,EVALUATION
+monogs,kitti_3d_corrupted,mix_brightness_contrast_00_1,0,completed,True,2480.3242044448853,5.797943115234375,0.0,3.01373291015625,nan,none
+monogs,kitti_3d_corrupted,mix_brightness_contrast_00_2,0,completed,True,1660.212384223938,4.687057495117188,0.0,2.68951416015625,nan,none
+monogs,kitti_3d_corrupted,mix_brightness_contrast_00_3,0,completed,True,1630.2233729362488,4.843296051025391,0.0,2.55084228515625,,none
+monogs,kitti_3d_corrupted,mix_brightness_contrast_00_4,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti_3d_corrupted,mix_brightness_contrast_00_5,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti_3d_corrupted,mix_fog_contrast_00_1,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti_3d_corrupted,mix_fog_contrast_00_2,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti_3d_corrupted,mix_fog_contrast_00_3,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti_3d_corrupted,mix_fog_contrast_00_4,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti_3d_corrupted,mix_fog_contrast_00_5,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti_3d_corrupted,mix_rain_contrast_00_1,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti_3d_corrupted,mix_rain_contrast_00_2,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti_3d_corrupted,mix_rain_contrast_00_3,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti_3d_corrupted,mix_rain_contrast_00_4,0,nan,nan,0.0,0.0,0.0,0.0,nan,none
+monogs,kitti_3d_corrupted,mix_rain_contrast_00_5,0,nan,nan,0.0,0.0,0.0,0.0,nan,none

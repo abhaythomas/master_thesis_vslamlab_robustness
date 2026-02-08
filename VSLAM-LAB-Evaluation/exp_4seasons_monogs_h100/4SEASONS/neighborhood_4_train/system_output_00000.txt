@@ -1,0 +1,54 @@
+✨ Pixi task (execute_mono in monogs): vslamlab_monogs_mono --sequence_path /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/4SEASONS/neighborhood_4_train --calibration_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Benchmark/4SEASONS/neighborhood_4_train/calibration.yaml --rgb_txt /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_4seasons_monogs_h100/4SEASONS/neighborhood_4_train/rgb_exp.txt --exp_folder /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB-Evaluation/exp_4seasons_monogs_h100/4SEASONS/neighborhood_4_train --exp_it 0 --settings_yaml /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml --verbose 0 --mode mono
+Loading config from /pfs/work9/workspace/scratch/ma_abthomas-thomas_thesis/VSLAM-LAB/Baselines/MonoGS/vslamlab_monogs_settings.yaml
+MonoGS:         use_gui=False
+MonoGS: Resetting the system
+MonoGS: Initialized map
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Performing initial BA for initialization
+MonoGS: Initialized SLAM
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+[W201 16:50:24.353784294 CudaIPCTypes.cpp:100] Producer process tried to deallocate over 1000 memory blocks referred by consumer processes. Deallocation might be significantly slowed down. We assume it will never going to be the case, but if it is, please file but to https://github.com/pytorch/pytorch
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Resetting the opacity of non-visible Gaussians
+Eval: Total time 68167.128
+Eval: Total FPS 0.14339756253189956
+[W202 10:33:09.473492972 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+MonoGS: Backend stopped and joined the main thread
+MonoGS: Done.
+[W202 10:33:27.189422997 CudaIPCTypes.cpp:100] Producer process tried to deallocate over 1000 memory blocks referred by consumer processes. Deallocation might be significantly slowed down. We assume it will never going to be the case, but if it is, please file but to https://github.com/pytorch/pytorch
+[W202 10:33:32.046765895 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
