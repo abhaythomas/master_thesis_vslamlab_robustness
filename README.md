@@ -1,4 +1,4 @@
-# Master Thesis VSLAM Lab Robustness Artifacts
+# Master Thesis VSLAM Lab Robustness
 
 This repository is an **artifact and results collection** for evaluating visual SLAM robustness, with a strong focus on KITTI corruption studies and cross-method comparisons.
 
