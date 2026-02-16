@@ -77,14 +77,6 @@ print(kitti.groupby(["category", "method"])["ape_rmse"].mean().sort_values())
 This repo does not currently include the full experiment-launch scripts/pipelines.
 To reproduce runs end-to-end, use your VSLAM-LAB experiment definitions and treat this repository as the output/analysis companion.
 
-## Suggested additions (optional)
-
-If you want this to become fully self-contained, add:
-1. dataset preparation instructions,
-2. experiment launch commands/config files,
-3. evaluation scripts used to produce consolidated tables,
-4. a short data dictionary for each key CSV schema.
-
 ## License
 
 No explicit license file is currently present.
